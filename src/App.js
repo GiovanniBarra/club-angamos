@@ -2,7 +2,7 @@ import './App.css';
 import {Routes,Route} from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import { HomeComponents } from './components/home/HomeComponents'
+import HomeComponents from './components/home/HomeComponents';
 
 
 const App=() =>{
