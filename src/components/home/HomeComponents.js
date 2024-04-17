@@ -35,7 +35,7 @@ const HomeComponents = () => {
 
       {/* Aqui comienza el container de la directiva y los logos*/}
       <div className='container-fluid'>
-        <div className="row justify-content-around" >
+        <div className="row justify-content-around">
 
           {/* Aqui comienza el carrusel de la directiva (carrusel 1) */}
           <div id="carrusel1" className="carousel slide col-lg-8" data-bs-ride="carousel">
@@ -244,10 +244,10 @@ const HomeComponents = () => {
 
       {/* Aqui comienza el container de las noticias */}
       <div className='container-fluid' style={{ marginBottom: 20 + "px" }}>
-        <div className="row justify-content-around" >
+        <div className="row justify-content-around">
 
           {/* Aqui comienzan las card */}
-          <div className="card col-lg-3 col-sm-6 border border-warning" style={{ width: 400 + "px", backgroundColor: "#106c44" }}>
+          <div className="card col-lg-3 col-sm-6 border border-warning" style={{ width: 400 + "px", backgroundColor: "#106c44", marginBottom: 20 + "px"}}>
             <img className="card-img mt-3" src={imagen1} style={{ width: 100 + "%" }} />
             <div className="card-body">
               <h4 className="card-title" style={{color: "#fded00"}}>John Doe</h4>
@@ -256,7 +256,7 @@ const HomeComponents = () => {
             </div>
           </div>
 
-          <div className="card col-lg-3 col-sm-6 border border-warning" style={{ width: 400 + "px", backgroundColor: "#106c44" }}>
+          <div className="card col-lg-3 col-sm-6 border border-warning" style={{ width: 400 + "px", backgroundColor: "#106c44", marginBottom: 20 + "px"}}>
             <img className="card-img mt-3" src={imagen3} style={{ width: 100 + "%" }} />
             <div className="card-body">
               <h4 className="card-title" style={{color: 'white'}}>John Doe</h4>
@@ -265,7 +265,7 @@ const HomeComponents = () => {
             </div>
           </div>
 
-          <div className="card col-lg-3 col-sm-6 border border-warning" style={{ width: 400 + "px", backgroundColor: "#106c44" }}>
+          <div className="card col-lg-3 col-sm-6 border border-warning" style={{ width: 400 + "px", backgroundColor: "#106c44", marginBottom: 20 + "px"}}>
             <img className="card-img mt-3" src={imagen1} style={{ width: 100 + "%" }} />
             <div className="card-body">
               <h4 className="card-title">John Doe</h4>
@@ -285,4 +285,4 @@ const HomeComponents = () => {
   )
 }
 
-export default HomeComponents 
+export default HomeComponents

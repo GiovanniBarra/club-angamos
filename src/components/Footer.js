@@ -10,16 +10,16 @@ const Footer = () => {
         <div style={{ padding: .6 + "%", backgroundColor: "#106c44" }}>
             <footer style={{ textAlign: 'center' }}>
 
-                <p style={{ color: "yellow" }}>Siguenos en
-                    <FontAwesomeIcon icon={faFacebook} style={{marginRight: 10 + "px", marginLeft: 10 + "px"}} />
-                    <FontAwesomeIcon icon={faInstagram} style={{marginRight: 10 + "px"}}/>
-                    <FontAwesomeIcon icon={faTwitter} style={{marginRight: 10 + "px"}}/>
-                    <FontAwesomeIcon icon={faTiktok} style={{marginRight: 10 + "px"}}/>
-                </p>
+                <h4 style={{ color: "yellow" }}>Siguenos en
+                    <Link to="https://www.facebook.com/angamos?locale=es_LA" style={{color: 'yellow', marginRight: 10 + "px", marginLeft: 10 + "px"}}><FontAwesomeIcon icon={faFacebook}/></Link>
+                    <Link to="" style={{marginRight: 10 + "px", color: 'yellow'}}><FontAwesomeIcon icon={faInstagram}/></Link>
+                    <Link to="" style={{marginRight: 10 + "px", color: 'yellow'}}><FontAwesomeIcon icon={faTwitter}/></Link>
+                    <Link to="" style={{marginRight: 10 + "px", color: 'yellow'}}><FontAwesomeIcon icon={faTiktok}/></Link>
+                </h4>
 
-                <p style={{ color: "yellow" }}>
+                <h6 style={{ color: "yellow" }}>
                     © Unión Angamos 2024 - Derechos Reservados
-                </p>
+                </h6>
 
             </footer>
         </div>

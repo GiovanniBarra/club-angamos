@@ -7,7 +7,7 @@ const NoticiaCompleta = () => {
         <>
 
             <div className='container-fluid'>
-                <div style={{ marginTop: 7 + "%", color: 'white', paddingTop: 1 + "%" }}>
+                <div style={{ marginTop: 6 + "%", color: 'white', paddingTop: 1 + "%" }}>
                     <p>13 de marzo 2024</p>
                 </div>
 
@@ -16,7 +16,7 @@ const NoticiaCompleta = () => {
                 </div>
             </div>
 
-            <div className='container-fluid'>
+            <div className='container-fluid' style={{marginTop: 2 + "%"}}>
                 <div className="row justify-content-around" >
 
                     <div className='col-lg-1'></div>
